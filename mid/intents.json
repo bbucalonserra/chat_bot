@@ -1,0 +1,116 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you?",
+                "Hello",
+                "Good day",
+                "Whats up"
+            ],
+            "responses": [
+                "Hello again! My name is Muvie and I'm here to help you select a movie or TV show. \nFirst, tell me if you want to watch a movie or a TV show."
+            ]
+        },
+        {
+            "tag": "inform_content_type",
+            "patterns": [
+                "movie",
+                "tv show"
+            ],
+            "responses": [
+                "Great. You chose content_type. What is the max duration_or_seasons you expect to watch? \nREMEMBER to tell me if you are talking about hours or minutes!"
+            ]
+        },
+        {
+            "tag": "duration",
+            "patterns": [
+                "hours",
+                "seconds",
+                "minutes",
+                "seasons"
+            ],
+            "responses": [
+                "Great. I'll search for a program with duration_selected. \nNow, tell me if you want this tittle to be released after or before a specific year. \nPlease type: after <year> or before <year>"
+            ]
+        },
+        {
+            "tag": "country",
+            "patterns": [
+                "United States",
+                "United Kingdom",
+                "Canada",
+                "India",
+                "France",
+                "Germany",
+                "Spain",
+                "Italy",
+                "Portugal",
+                "Brazil",
+                "Mexico",
+                "Argentina",
+                "Chile",
+                "Colombia",
+                "Japan",
+                "South Korea",
+                "China",
+                "Hong Kong",
+                "Taiwan",
+                "Thailand",
+                "Indonesia",
+                "Philippines",
+                "Australia",
+                "New Zealand",
+                "South Africa",
+                "Nigeria",
+                "Egypt",
+                "Turkey",
+                "Russia",
+                "Poland",
+                "Netherlands",
+                "Belgium",
+                "Sweden",
+                "Norway",
+                "Denmark",
+                "Finland",
+                "Ireland",
+                "Iceland",
+                "Switzerland",
+                "Austria",
+                "Czech Republic",
+                "Hungary",
+                "Romania",
+                "Greece",
+                "Israel",
+                "United Arab Emirates",
+                "Saudi Arabia",
+                "Iran",
+                "Pakistan",
+                "Bangladesh",
+                "Sri Lanka"
+            ],
+            "responses": [
+                "Excellent. I'll search for a program with these characteristics, give me a second."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you",
+                "bye bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!",
+                "Come back soon",
+                "Thank you",
+                "Let me know if you need anything else"
+            ]
+        }
+    ]
+}
