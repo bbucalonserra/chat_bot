@@ -20,7 +20,7 @@
                 "tv show"
             ],
             "responses": [
-                "Great. You chose content_type. What is the max duration_or_seasons you expect to watch? \nREMEMBER to tell me if you are talking about hours or minutes!"
+                "Great. You chose content_type. What is the max duration_or_seasons you expect to watch? \nREMEMBER, if movie, tell me if you are talking about hours or minutes!"
             ]
         },
         {
@@ -38,57 +38,7 @@
         {
             "tag": "country",
             "patterns": [
-                "United States",
-                "United Kingdom",
-                "Canada",
-                "India",
-                "France",
-                "Germany",
-                "Spain",
-                "Italy",
-                "Portugal",
-                "Brazil",
-                "Mexico",
-                "Argentina",
-                "Chile",
-                "Colombia",
-                "Japan",
-                "South Korea",
-                "China",
-                "Hong Kong",
-                "Taiwan",
-                "Thailand",
-                "Indonesia",
-                "Philippines",
-                "Australia",
-                "New Zealand",
-                "South Africa",
-                "Nigeria",
-                "Egypt",
-                "Turkey",
-                "Russia",
-                "Poland",
-                "Netherlands",
-                "Belgium",
-                "Sweden",
-                "Norway",
-                "Denmark",
-                "Finland",
-                "Ireland",
-                "Iceland",
-                "Switzerland",
-                "Austria",
-                "Czech Republic",
-                "Hungary",
-                "Romania",
-                "Greece",
-                "Israel",
-                "United Arab Emirates",
-                "Saudi Arabia",
-                "Iran",
-                "Pakistan",
-                "Bangladesh",
-                "Sri Lanka"
+
             ],
             "responses": [
                 "Excellent. I'll search for a program with these characteristics, give me a second."
